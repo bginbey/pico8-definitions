@@ -30,7 +30,7 @@ function sub(str, pos0, pos1) end
 ---
 ---[View Online](https://www.lexaloffle.com/dl/docs/picotron_manual.html#split)
 ---@param str string
----@param separator charater|number?
+---@param separator string|number?
 ---@param convert_numbers boolean?
 ---@return table
 function split(str, separator, convert_numbers) end
