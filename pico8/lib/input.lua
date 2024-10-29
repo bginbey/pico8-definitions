@@ -31,7 +31,7 @@ function btn(b, pl) end
 ---- 5 X
 ---
 ---[View Online](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#BTNP)
----@param b number
+---@param b number?
 ---@param pl number?
 ---@return boolean
 function btnp(b, pl) end
