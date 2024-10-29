@@ -47,7 +47,8 @@ function sub(str, pos0, pos1) end
 ---[View Online](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#SPLIT)
 ---@param str string
 ---@param separator string?
----@param convert_numbers number?
+---@param convert_numbers boolean?
+---@return table
 function split(str, separator, convert_numbers) end
 
 ---Returns the type of val as a string.
