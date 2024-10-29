@@ -1,10 +1,11 @@
 {
     "Lua.workspace.library": [
-        "{path to pico-api/picotron or pico8}"
+        "{path to pico-api/picotron or pico-api/pico8}"
     ],
     "files.associations": {
         "*.lua": "lua"
     },
+    "Lua.runtime.version": "LuaJIT",
     "Lua.workspace.checkThirdParty": false,
     "Lua.diagnostics.disable": [
         "lowercase-global",
