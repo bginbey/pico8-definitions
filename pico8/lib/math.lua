@@ -86,3 +86,23 @@ function rnd(x) end
 ---[View Online](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#SRAND)
 ---@param x any
 function srand(x) end
+
+-- 9 bitwise functions
+
+function band(x, y) end
+
+function bor(x, y) end
+
+function bxor(x, y) end
+
+function bnot(x) end
+
+function shl(x, n) end
+
+function shr(x, n) end
+
+function lshr(x, n) end
+
+function rotl(x, n) end
+
+function rotr(x, n) end
