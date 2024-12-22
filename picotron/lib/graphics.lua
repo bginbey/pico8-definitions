@@ -286,8 +286,8 @@ function palt(c, is_transparent) end
 ---@param s number
 ---@param x number
 ---@param y number
----@param flip_x number?
----@param flip_y number?
+---@param flip_x boolean?
+---@param flip_y boolean?
 function spr(s, x, y, flip_x, flip_y) end
 
 ---Stretch a source rectangle of sprite s (sx, sy, sw, sh) to a destination rectangle on the screen (dx, dy, dw, dh). In both cases, the x and y values are coordinates (in pixels) of the rectangle's top left corner, with a width of w, h.
