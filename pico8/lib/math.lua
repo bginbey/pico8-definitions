@@ -36,6 +36,7 @@ function flr(x) end
 ---
 ---[View Online](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#CEIL)
 ---@param x number
+---@return number
 function ceil(x) end
 
 ---Returns the cosine of x.
