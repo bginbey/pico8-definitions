@@ -21,8 +21,8 @@ function btn(b, pl) end
 ---It also repeats after 30 frames, returning true every 8 frames after that.
 ---
 ---[View Online](https://www.lexaloffle.com/dl/docs/picotron_manual.html#btnp)
----@param b number -- 0~15
----@param pl number -- default 0 -- means Player 1
+---@param b number? -- 0~15
+---@param pl number? -- default 0 -- means Player 1
 ---@return boolean|number
 function btnp(b, pl) end
 
