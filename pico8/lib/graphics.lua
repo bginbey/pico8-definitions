@@ -220,7 +220,7 @@ function pal(tbl, p) end
 ---
 ---[View Online](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#PALT)
 ---@param c number
----@param t boolrean?
+---@param t boolean?
 function palt(c, t) end
 
 ---Draw sprite N (0..255) at position X,Y
@@ -231,8 +231,8 @@ function palt(c, t) end
 ---@param y number
 ---@param w number? 1 by default and specify how many sprites wide to blit.
 ---@param h number? 1 by default and specify how many sprites wide to blit.
----@param flip_x boolrean? flip horizontally when true
----@param flip_y boolrean? flip vertically when true
+---@param flip_x boolean? flip horizontally when true
+---@param flip_y boolean? flip vertically when true
 function spr(n, x, y, w, h, flip_x, flip_y) end
 
 ---Stretch a rectangle of the sprite sheet (sx, sy, sw, sh) to a destination rectangle on the screen (dx, dy, dw, dh).
