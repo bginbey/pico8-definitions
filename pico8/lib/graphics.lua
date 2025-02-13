@@ -259,5 +259,5 @@ function sspr(sx, sy, sw, sh, dx, dy, dw, dh, flip_x, flip_y) end
 ---CIRC() CIRCFILL() RECT() RECTFILL() OVAL() OVALFILL() PSET() LINE()
 ---
 ---[View Online](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#FILLP)
----@param p bitfield P is a bitfield in reading order starting from the highest bit.
+---@param p number P is a bitfield in reading order starting from the highest bit.
 function fillp(p) end

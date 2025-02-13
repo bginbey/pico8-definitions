@@ -4,7 +4,7 @@
 ---
 ---[View Online](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#TOSTR)
 ---@param val any
----@param format_flags bitfield?
+---@param format_flags number?
 ---@return string
 function tostr(val, format_flags) end
 
@@ -12,7 +12,7 @@ function tostr(val, format_flags) end
 ---
 ---[View Online](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#TONUM)
 ---@param val any
----@param format_flags bitfield?
+---@param format_flags number?
 ---@return number
 function tonum(val, format_flags) end
 

@@ -68,6 +68,6 @@ function userdata:poke(addr, offset, elements) end
 ---@param p any p is the f64 userdata -- normally 2d with a row for each call
 ---@param offset number offset is the flat offset into the userdata for the first call. Default: 0
 ---@param num number num is the number of gfx calls to make. Default: p:height()
----@param num_params numher params is the number of parameters to pass to the gfx function. Default: p:width()
+---@param num_params number params is the number of parameters to pass to the gfx function. Default: p:width()
 ---@param stride number stride is the number of elements to jump after each call. Default: p:width()
 function gfx_func(p, offset, num, num_params, stride) end

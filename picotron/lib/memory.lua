@@ -6,8 +6,9 @@
 ---```
 ---
 ---[View Online](https://www.lexaloffle.com/dl/docs/picotron_manual.html#peek)
----@param addr any
----@param n any?
+---@param addr number
+---@param n number?
+---@return number ...
 function peek(addr, n) end
 
 ---write one or more bytes to an address in base ram. if more than one parameter is provided, they are written sequentially (max: 65536).

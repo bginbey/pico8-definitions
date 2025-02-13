@@ -10,7 +10,7 @@
 ---@param sy number?
 ---@param tiles_x number?
 ---@param tiles_y number?
----@param p8layers bitfield?
+---@param p8layers number?
 ---@param tile_w number?
 ---@param tile_h number?
 function map(src, tile_x, tile_y, sx, sy, tiles_x, tiles_y, p8layers, tile_w, tile_h) end

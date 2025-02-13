@@ -25,7 +25,7 @@ function mset(x, y, val) end
 ---@param sy number?
 ---@param tile_w number?
 ---@param tile_h number?
----@param layers bitfield?
+---@param layers number?
 function map(tile_x, tile_y, sx, sy, tile_w, tile_h, layers) end
 
 ---Draw a textured line from (X0,Y0) to (X1,Y1), sampling colour values from the map.
@@ -41,5 +41,5 @@ function map(tile_x, tile_y, sx, sy, tile_w, tile_h, layers) end
 ---@param my number
 ---@param mdx number?
 ---@param mdy number?
----@param layers bitfield?
+---@param layers number?
 function tline(x0, y0, x1, y1, mx, my, mdx, mdy, layers) end

@@ -80,7 +80,7 @@ function readtext(clear) end
 ---mouse_b is a bitfield: 0x1 means left mouse button, 0x2 right mouse button
 ---
 ---[View Online](https://www.lexaloffle.com/dl/docs/picotron_manual.html#mouse)
----@return number mouse_x, number mouse_y, bitfield mouse_b, number wheel_x, number wheel_y
+---@return number mouse_x, number mouse_y, number mouse_b, number wheel_x, number wheel_y
 function mouse() end
 
 ---when lock is true, Picotron makes a request to the host operating system's window manager to capture the mouse, allowing it to control sensitivity and movement speed.

@@ -12,7 +12,7 @@ function sfx(n, channel, offset, length) end
 ---[View Online](https://www.lexaloffle.com/dl/docs/picotron_manual.html#music)
 ---@param n number
 ---@param fade_len number? default 0, in ms
----@param channel_mask bitfield?
+---@param channel_mask number?
 function music(n, fade_len, channel_mask) end
 
 ---This provides low level control over the state of a channel. It is useful in more niche situations, like audio authoring tools and size-coding.
