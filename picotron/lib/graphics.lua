@@ -148,7 +148,7 @@ function cls(col) end
 ---[View Online](https://www.lexaloffle.com/dl/docs/picotron_manual.html#camera)
 ---@param x number?
 ---@param y number?
-function camara(x, y) end
+function camera(x, y) end
 
 ---draw a circle at x,y with radius r
 ---
