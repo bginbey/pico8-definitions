@@ -1,6 +1,5 @@
 ---@meta
 
-
 ---Returns the current display as a u8, 2d userdata.
 ---
 ---There is no way to set the display userdata directly;
@@ -49,9 +48,9 @@ function window(attribs) end
 function window(width, height) end
 
 ---Set a fullscreen video mode. Currently supported modes:
----- 0: 480x270
----- 1: 240x135
----- 2: 160x90
+---- vid(0): 480x270
+---- vid(3): 240x135
+---- vid(4): 160x90
 ---
 ---[View Online](https://www.lexaloffle.com/dl/docs/picotron_manual.html#vid)
 ---@param video_mode number
