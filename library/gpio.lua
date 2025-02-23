@@ -7,4 +7,3 @@
 ---@param address any
 ---@param length any
 function serial(channel, address, length) end
-
