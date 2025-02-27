@@ -23,23 +23,23 @@
             "//"
         ],
         "Lua.runtime.builtin": {
-            "basic": "enable",
+            "basic": "disable",
             "bit": "disable",
             "bit32": "disable",
-            "builtin": "enable",
-            "coroutine": "enable",
-            "debug": "enable",
+            "builtin": "disable",
+            "coroutine": "disable",
+            "debug": "disable",
             "ffi": "disable",
             "io": "disable",
             "jit": "disable",
-            "math": "enable",
+            "math": "disable",
             "os": "disable",
             "package": "disable",
-            "string": "enable",
-            "table": "enable",
+            "string": "disable",
+            "table": "disable",
             "table.clear": "disable",
             "table.new": "disable",
-            "utf8": "enable"
+            "utf8": "disable"
         }
     }
 }

@@ -76,7 +76,7 @@ function fget(n, f) end
 ---Print a string STR and optionally set the draw colour to COL.
 ---
 ---[View Online](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#PRINT)
----@param str number
+---@param str any
 ---@param col number?
 ---@return number
 function print(str, col) end
@@ -84,7 +84,7 @@ function print(str, col) end
 ---Print a string STR and optionally set the draw colour to COL.
 ---
 ---[View Online](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#PRINT)
----@param str number
+---@param str any
 ---@param x number
 ---@param y number
 ---@param col number?
