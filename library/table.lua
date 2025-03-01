@@ -54,3 +54,13 @@ function foreach(tbl, func) end
 ---[View Online](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#PAIRS)
 ---@param tbl table
 function pairs(tbl) end
+
+---Creates a table from the given parameters.
+---@param ... any
+---@return table
+function pack(...) end
+
+---Returns the elements from the given table.
+---@param tbl table
+---@return ... any
+function unpack(tbl) end
