@@ -75,6 +75,13 @@ function sqrt(x) end
 ---@return number
 function abs(x) end
 
+---Returns the sign of a number, 1 for positive, -1 for negative
+---
+---sgn(0) will return 1, not 0
+---@param x number
+---@return number
+function sgn(x) end
+
 ---returns a random number n, 0 <= n < x.
 ---
 ---[View Online](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#RND)

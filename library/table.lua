@@ -55,6 +55,27 @@ function foreach(tbl, func) end
 ---@param tbl table
 function pairs(tbl) end
 
+---Returns an iterator of index-value pairs for all elements in a table, for use with for...in.
+---
+---[View Online](https://pico-8.fandom.com/wiki/IPairs)
+---@param tbl table
+function ipairs(tbl) end
+
+---A stateless iterator of key-value pairs for all elements in a table.
+---@param tbl table the table
+---@param key any? the current key
+---@return key any
+---@return value any
+function next(tbl, key) end
+
+---Selects from the given parameters.
+---
+---[View Online](https://pico-8.fandom.com/wiki/Select)
+---@param index number|string Index to return parameters from, or '#' to return number of parameters
+---@param ... any parameters
+---@return ... any
+function select(index, ...) end
+
 ---Creates a table from the given parameters.
 ---@param ... any
 ---@return table
