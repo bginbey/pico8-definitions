@@ -14,8 +14,9 @@ function peek(addr, n) end
 ---
 ---[View Online](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#POKE)
 ---@param addr number
+---@param val number
 ---@param ... number
-function poke(addr, ...) end
+function poke(addr, val, ...) end
 
 ---16-bit version of PEEK.
 ---
@@ -33,8 +34,9 @@ function peek2(addr, n) end
 ---
 ---[View Online](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#POKE2)
 ---@param addr number
+---@param val number
 ---@param ... number
-function poke2(addr, ...) end
+function poke2(addr, val, ...) end
 
 ---32-bit version of PEEK.
 ---
@@ -52,8 +54,9 @@ function peek4(addr, n) end
 ---
 ---[View Online](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#POKE4)
 ---@param addr number
+---@param val number
 ---@param ... number
-function poke4(addr, ...) end
+function poke4(addr, val, ...) end
 
 ---Copy LEN bytes of base ram from source to dest.
 ---
