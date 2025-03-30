@@ -216,8 +216,8 @@ function pal() end
 
 ---PAL(P) resets a particular palette (0..2) to system defaults
 ---
----@param p number
 ---[View Online](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#PAL)
+---@param p number
 function pal(p) end
 
 ---assign colours for each entry
