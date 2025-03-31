@@ -38,7 +38,7 @@ function ord(str, index, num_results) end
 ---[View Online](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#SUB)
 ---@param str string
 ---@param pos0 number
----@param pos1 number
+---@param pos1 number?
 ---@return string
 function sub(str, pos0, pos1) end
 
