@@ -2,51 +2,61 @@
 
 ---Read a byte from an address in base ram.
 ---
+---If N is specified, PEEK returns that number of results (max: 8192).
+---
 ---[View Online](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#PEEK)
 ---@param addr number
----@param n number
----@return number
+---@param n number?
+---@return number ...
 function peek(addr, n) end
 
 ---Write one or more bytes to an address in base ram.
 ---
 ---[View Online](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#POKE)
 ---@param addr number
----@param val1 any
----@param ... any
-function poke(addr, val1, ...) end
+---@param val number
+---@param ... number
+function poke(addr, val, ...) end
 
 ---16-bit version of PEEK.
 ---
----Read one number in little-endian format: 0xffff.0000
+---Read one or more numbers in little-endian format: 0xffff.0000
 ---
 ---[View Online](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#PEEK2)
 ---@param addr number
-function peek2(addr) end
+---@param n number?
+---@return number ...
+function peek2(addr, n) end
 
 ---16-bit version of POKE.
 ---
----Write one number in little-endian format: 0xffff.0000
+---Write one or more numbers in little-endian format: 0xffff.0000
 ---
+---[View Online](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#POKE2)
 ---@param addr number
----@param val any
-function poke2(addr, val) end
+---@param val number
+---@param ... number
+function poke2(addr, val, ...) end
 
 ---32-bit version of PEEK.
 ---
----Read one number in little-endian format: 0xffff.ffff
+---Read one or more numbers in little-endian format: 0xffff.ffff
 ---
 ---[View Online](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#PEEK4)
 ---@param addr number
-function peek4(addr) end
+---@param n number?
+---@return number ...
+function peek4(addr, n) end
 
 ---32-bit version of POKE.
 ---
----Write one number in little-endian format: 0xffff.ffff
+---Write one or more numbers in little-endian format: 0xffff.ffff
 ---
+---[View Online](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#POKE4)
 ---@param addr number
----@param val any
-function poke4(addr, val) end
+---@param val number
+---@param ... number
+function poke4(addr, val, ...) end
 
 ---Copy LEN bytes of base ram from source to dest.
 ---
