@@ -209,6 +209,17 @@ function rectfill(x0, y0, x1, y1, col) end
 ---@param p number?
 function pal(c0, c1, p) end
 
+---PAL() with no arguments resets all palettes to system defaults (including transparency values)
+---
+---[View Online](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#PAL)
+function pal() end
+
+---PAL(P) resets a particular palette (0..2) to system defaults
+---
+---[View Online](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#PAL)
+---@param p number
+function pal(p) end
+
 ---assign colours for each entry
 ---
 ---[View Online](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#PAL)
