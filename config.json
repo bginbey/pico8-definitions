@@ -1,7 +1,7 @@
 {
     "name": "PICO-8",
     "settings": {
-        "Lua.runtime.version": "Lua 5.2",
+        "Lua.runtime.version": "LuaJIT",
         "Lua.workspace.checkThirdParty": false,
         "Lua.diagnostics.disable": [
             "lowercase-global",
