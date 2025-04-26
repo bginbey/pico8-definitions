@@ -1,5 +1,8 @@
 ---@meta
 
+---@class table: { [unknown]: any }
+---@class table<K, V>: { [K]: V }
+
 ---Add value VAL to the end of table TBL.
 ---
 ---If index is given then the element is inserted at that position
@@ -52,13 +55,20 @@ function foreach(tbl, func) end
 ---Unlike ALL(), PAIRS() iterates over every item regardless of indexing scheme. Order is not guaranteed.
 ---
 ---[View Online](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#PAIRS)
----@param tbl table
+---@generic T: table, K, V
+---@param tbl T
+---@return fun(table: table<K, V>, index?: K):K, V
+---@return T
 function pairs(tbl) end
 
 ---Returns an iterator of index-value pairs for all elements in a table, for use with for...in.
 ---
 ---[View Online](https://pico-8.fandom.com/wiki/IPairs)
----@param tbl table
+---@generic T: table, V
+---@param tbl T
+---@return fun(table: V[], i?: integer):integer, V
+---@return T
+---@return integer i
 function ipairs(tbl) end
 
 ---A stateless iterator of key-value pairs for all elements in a table.
