@@ -84,8 +84,10 @@ function sgn(x) end
 
 ---returns a random number n, 0 <= n < x.
 ---
+---rnd() will return number n, 0 <= n < 1
+---
 ---[View Online](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#RND)
----@param x number
+---@param x number?
 ---@return number
 function rnd(x) end
 
