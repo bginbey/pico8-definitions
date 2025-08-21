@@ -2,7 +2,7 @@
 
 This is a project consisting of definition files for the sumneko/lua extension for VSCode, allowing you to write PICO-8 programs with the support of modern editor features.
 
-Similar add-on for Picotron: https://github.com/ahai64/picotron
+Similar add-on for Picotron: https://github.com/ahai64/picotron-definitions
 
 ## Usage
 

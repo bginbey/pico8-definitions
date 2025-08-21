@@ -198,6 +198,38 @@ function rect(x0, y0, x1, y1, col) end
 ---@param col number?
 function rectfill(x0, y0, x1, y1, col) end
 
+---Draw a rounded rectangle with rounded corners.
+---
+---The width (W) and height (H) are in pixels, and must both be more than 0 for the shape to be drawn.
+---
+---Radius (R) defaults to 0, and is the size of the quarter-circle to be drawn at each corner. The radius used is clamped to fall the range 0 .. min(width,height)/2.
+---
+---[View Online](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#RRECT)
+---@param x numebr
+---@param y number
+---@param w number
+---@param h numebr
+---@param r number
+---@param col number?
+function rrect(x, y, w, h, r, col) end
+
+---Draw a rounded filled rectangle with rounded corners.
+---
+---The width (W) and height (H) are in pixels, and must both be more than 0 for the shape to be drawn.
+---
+---Radius (R) defaults to 0, and is the size of the quarter-circle to be drawn at each corner. The radius used is clamped to fall the range 0 .. min(width,height)/2.
+---
+---When bits 0x1800.0000 are set in COL, and (PEEK(0x5F34) & 2) == 2, RRECTFILL is drawn inverted.
+---
+---[View Online](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#RRECTFILL)
+---@param x numebr
+---@param y number
+---@param w number
+---@param h numebr
+---@param r number
+---@param col number?
+function rrectfill(x, y, w, h, r, col) end
+
 ---PAL() swaps colour c0 for c1 for one of three palette re-mappings (p defaults to 0)
 ---- 0: Draw Palette
 ---- 1: Display Palette
