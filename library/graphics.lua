@@ -65,12 +65,19 @@ function sget(x, y) end
 ---@param val boolean
 function fset(n, f, val) end
 
+---Get the value (VAL) of all of sprite N's flags as a single bitfield.
+---
+---[View Online](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#FGET)
+---@param n number
+---@return number
+function fget(n) end
+
 ---Get the value (VAL) of sprite N's flag F.
 ---
 ---[View Online](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#FGET)
 ---@param n number
----@param f number?
----@return number
+---@param f number
+---@return boolean
 function fget(n, f) end
 
 ---Print a string STR and optionally set the draw colour to COL.
