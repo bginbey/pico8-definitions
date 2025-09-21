@@ -212,10 +212,10 @@ function rectfill(x0, y0, x1, y1, col) end
 ---Radius (R) defaults to 0, and is the size of the quarter-circle to be drawn at each corner. The radius used is clamped to fall the range 0 .. min(width,height)/2.
 ---
 ---[View Online](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#RRECT)
----@param x numebr
+---@param x number
 ---@param y number
 ---@param w number
----@param h numebr
+---@param h number
 ---@param r number
 ---@param col number?
 function rrect(x, y, w, h, r, col) end
@@ -229,10 +229,10 @@ function rrect(x, y, w, h, r, col) end
 ---When bits 0x1800.0000 are set in COL, and (PEEK(0x5F34) & 2) == 2, RRECTFILL is drawn inverted.
 ---
 ---[View Online](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#RRECTFILL)
----@param x numebr
+---@param x number
 ---@param y number
 ---@param w number
----@param h numebr
+---@param h number
 ---@param r number
 ---@param col number?
 function rrectfill(x, y, w, h, r, col) end
